@@ -2,6 +2,7 @@
 
 # Contexte du projet
 Piiquante se dédie à la création de sauces épicées dont les recettes sont gardées secrètes. Pour tirer parti de son succès et générer davantage de buzz, l'entreprise souhaite créer une application web dans laquelle les utilisateurs peuvent ajouter leurs sauces préférées et liker ou disliker les sauces ajoutées par les autres.
+![Capture d’écran 2022-04-10 à 15 40 04](https://user-images.githubusercontent.com/94977490/171210646-2f99798d-0efd-4ffc-9f4e-cbb46edb572d.png)
 
 # API Routes
 Toutes les routes sauce pour les sauces disposent d’une autorisation (le token est envoyé par le front-end avec l'en-tête d’autorisation : « Bearer <token> »). Avant que l'utilisateur puisse apporter des modifications à la route sauce, le code vérifie si l'userId actuel correspond à l'userId de la sauce. Si l'userId ne correspond pas, cela renvoit « 403: unauthorized request. » 
