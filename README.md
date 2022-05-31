@@ -7,6 +7,7 @@ Piiquante se dédie à la création de sauces épicées dont les recettes sont g
 # API Routes
 Toutes les routes sauce pour les sauces disposent d’une autorisation (le token est envoyé par le front-end avec l'en-tête d’autorisation : « Bearer <token> »). Avant que l'utilisateur puisse apporter des modifications à la route sauce, le code vérifie si l'userId actuel correspond à l'userId de la sauce. Si l'userId ne correspond pas, cela renvoit « 403: unauthorized request. » 
 Cela permet de s'assurer que seul le propriétaire de la sauce peut apporter des modifications à celle-ci.
+● Implémentation d'un système de Like/Dislike
   
 # Exigences de sécurité
 ● Le mot de passe est haché.
